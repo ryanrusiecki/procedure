@@ -124,6 +124,7 @@ function gameScreen() {
     }
     if (lives === 0) {
         endgame = endgame + 1;
+        welcome = welcome -1;
     }
     //display main statement
     fill(50);
@@ -199,7 +200,7 @@ function endScreen() {
     textSize(20);
     text("Score:" + score, width / 2, height / 3);
     textSize(15);
-    text("Reload window to retry", width / 2, height / 2);
+    text("Press space to retry", width / 2, height / 2);
     noLoop();
 }
 
