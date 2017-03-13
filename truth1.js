@@ -95,6 +95,7 @@ function openScreen() {
     text("Controls: Mouse", 333, 175, 333, 50);
     textSize(25);
     text("Welcome to Facts, B", width / 2, ((height / 4) * 2))
+    text("Press space to begin", width/2, ((height / 40 * 3))
     textSize(75);
     fill(0);
     text("?", mouseX, mouseY);
